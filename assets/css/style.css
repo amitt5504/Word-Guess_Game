@@ -1,0 +1,19 @@
+.background {
+    /* background: url("/assets/images/background.jpg"); */
+    background-repeat: repeat;
+} 
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    align-content: center;
+    margin-left: 60px;
+    color: white;
+}
+
+.header {
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+}
+
