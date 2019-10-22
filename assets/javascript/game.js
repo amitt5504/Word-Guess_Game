@@ -63,7 +63,6 @@ wordGuess.prototype.checkGuess = function (guess) {
             this.wordFlag[i] = true;
 		}
     }
-    console.log
 	if (!isInWord) {
         this.guessesRemaining--;
 	}
@@ -93,7 +92,7 @@ wordGuess.prototype.updatePage  = function ()
     wordGuessedText.textContent =  this.answer.join(" ");
     
     //remaing number of guesses
-    guessesRemainingText.textContent = "Guessing Remaining: " + this.guessesRemaining;
+    guessesRemainingText.textContent = "Guesses Remaining: " + this.guessesRemaining;
 
     lettersGuessedText.textContent = "Letters Guessed: " + this.lettersGuessed.join(" ");
     // amount of wins
